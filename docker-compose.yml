@@ -1,0 +1,8 @@
+version: '3'
+services:
+  cb_services:
+    restart: unless-stopped
+    build: .
+    volumes:
+      - /home/scemer/navidrome/music:/home/scemer/navidrome/music
+
